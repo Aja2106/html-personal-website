@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+}
+
+#header {
+    background-color: #CE2E6C;
+    color: white; 
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+.lead {
+    font-size: 24px;
+}
+  
+#profile {
+    text-align: center; /* Volitelné: Upřesní zarovnání uvnitř sekce */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+  }
+  
+  .profile {
+    max-width: 900px; /* Volitelné: Omezí šířku obsahu, aby nedocházelo k roztažení na celou šířku */
+  }
+
+h2 {
+    color: #CE2E6C;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+#skills {
+    text-align: center; /* Volitelné: Upřesní zarovnání uvnitř sekce */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skills {
+    max-width: 1200px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    font-size: 20px;
+}
+
+.typing,
+.coding,
+.webdev,
+.dev {
+    flex: 1;
+    padding: 20px; /* Volitelné: Nastavte potřebné vnitřní okraje */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact {
+    text-align: center; /* Volitelné: Upřesní zarovnání uvnitř sekce */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+
+h3 {
+    color: #FFB5B5;
+}
+
+.btn {
+    border: 3px solid #CE2E6C;
+    color: #CE2E6C;
+}
+
+.btn:hover {
+    background-color: #CE2E6C;
+    color: white;
+}
+
+#footer {
+    background-color: #CE2E6C;
+    text-align: center; /* Volitelné: Upřesní zarovnání uvnitř sekce */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.footer-link {
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: #504658;
+}
+
+.footer-link:hover {
+    color: white;
+}
